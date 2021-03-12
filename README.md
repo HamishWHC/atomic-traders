@@ -1,29 +1,14 @@
-# New Project
+# Atomic Traders
+A web dashboard for [SpaceTradersAPI](https://spacetraders.io). It doesn't yet have a hosted version (yet), but you can run it locally.
 
-> ✨ Bootstrapped with Create Snowpack App (CSA).
+## Installation
+1. Clone this repo: `git clone https://github.com/HamishWHC/atomic-traders`
+2. NPM Install: `npm install`
+3. Copy `example.env` to `.env` and replace `token-here` with your SpaceTraders token.
+4. Run the server: `npm run start`
 
-## Available Scripts
+## Contributing
+Feel free to contribute bug fixes or features, but I'm not looking for this to be particularly collaborative, and won't hesitate pushing my changes directly to `master` and with many unrelated changes.
 
-### npm start
-
-Runs the app in the development mode.
-Open http://localhost:8080 to view it in the browser.
-
-The page will reload if you make edits.
-You will also see any lint errors in the console.
-
-### npm test
-
-Launches the test runner in the interactive watch mode.
-See the section about running tests for more information.
-
-### npm run build
-
-Builds a static copy of your site to the `build/` folder.
-Your app is ready to be deployed!
-
-**For the best production performance:** Add a build bundler plugin like [@snowpack/plugin-webpack](https://github.com/snowpackjs/snowpack/tree/main/plugins/plugin-webpack) or [snowpack-plugin-rollup-bundle](https://github.com/ParamagicDev/snowpack-plugin-rollup-bundle) to your `snowpack.config.json` config file.
-
-### Q: What about Eject?
-
-No eject needed! Snowpack guarantees zero lock-in, and CSA strives for the same.
+## License
+Distributed under the MIT License. See `LICENSE` for more information.
